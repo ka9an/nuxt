@@ -1,11 +1,8 @@
 <template>
-  <Tutorial/>
+  <div>
+    Nuxt module !
+    <nuxt-link to="/page2">
+      page 2
+    </nuxt-link>
+  </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage'
-})
-</script>

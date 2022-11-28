@@ -1,25 +1,13 @@
 {
-  "name": "nuxtjs-on-koyeb",
-  "version": "1.0.0",
+  "name": "nuxt3-playground",
   "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "HOST=0.0.0.0 nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "core-js": "^3.26.1",
-    "nuxt": "^3.0.0",
-    "vue": "^3.2.45",
-    "vue-server-renderer": "^2.7.14",
-    "vue-template-compiler": "^2.7.14"
+    "build": "nuxi prepare",
+    "dev": "nuxi dev",
+    "stub": "nuxi prepare"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0"
+    "@unlighthouse/nuxt": "latest",
+    "nuxt": "npm:nuxt3@latest"
   }
 }
